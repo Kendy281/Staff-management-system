@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    box-shadow: 15px 15px 30px #afafaf, 
+    -15px -15px 30px #ffffff; 
+    padding: 0;
+    margin: 10% 10%;
+}
+
+.maincontent {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; 
+    gap: 0;
+}
+
+.side1main {
+    background-image: url("CSIRlogo.jpg");
+    background-size: cover;
+}
+
+.side1 {
+   padding-left: 40px;
+   padding-top: 40px;
+}
+
+.side1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.side1 blockquote {
+    color: aliceblue;    
+    margin-right: 40px;
+    margin-top: 80px;
+    font-size: larger;
+}
+
+.side2 {
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.side2 .bottomtext{
+    text-align: center;
+}
+
+.side2content {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.side2content h3 {
+    color: #180F90 ;
+}
+
+/*
+form input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+
+form input:focus {
+    outline: none;
+}
+*/
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 70px 70px;
+    box-shadow: 5px 5px 10px #afafaf, 
+    -5px -5px 10px #ffffff;;
+    text-align: center;
+    width: 100%;
+}
+
+.createacc {
+    color: aliceblue;
+    background: black;
+}
+
+.google {
+    color: black;
+    background: white;
+}
+
+@media (max-width: 600px) { 
+    .maincontent {
+        display: grid;
+        grid-template-columns: 0 1fr; 
+        gap: 0;
+        
+    }
+  
+    .side2 {
+        padding-left: 30px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+
+    .logoimg {
+      padding-left: 100px;
+      padding-right: 100px;
+     
+    }
+
+    .side1 {
+       padding-left: 30px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+  
+    .side2content {
+      padding-top: 30px;
+    }
+}
+}
+

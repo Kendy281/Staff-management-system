@@ -1,0 +1,199 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    box-shadow: 15px 15px 30px #afafaf, 
+    -15px -15px 30px #ffffff; 
+    padding: 0;
+    padding-right: 20px;
+    margin: 10% 10%; 
+}
+
+.maincontent {
+    display: grid;
+    grid-template-columns: 1fr 0; 
+    gap: 0;
+  
+    margin: 0 ;
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0 ;
+    
+}
+
+
+.side1main {
+    background-image: url("bckgimg2.jpg");
+}
+
+.side1 {
+   padding-left: 40px;
+   padding-top: 40px;
+}
+
+.side1 h3 {
+  color: #180F90 ;
+}
+
+.side1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.side1 blockquote {
+    color: aliceblue;    
+    margin-right: 40px;
+    margin-top: 80px;
+    font-size: larger;
+}
+
+.side2 {
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.side2 .bottomtext{
+    text-align: center;
+}
+
+.side2content h3 {
+    color: #180F90;
+}
+
+.side2content a img {
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+form input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    height: 20px;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.form-label {
+    display: block;
+    text-align: left;
+}
+
+
+#reason {
+   border: none;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    height: 50px;
+}
+/* start of trial work 
+
+form {
+        border: 4px solid #f1f1f1;
+        height: 300px;
+        padding-left: 5%;
+        padding-top: 30px;
+        padding-right: 5%;
+        background-color: rgb(31, 30, 29);
+        margin-top: 100px;
+        margin-right: 5%;
+        box-shadow: 15px 15px 30px #afafaf, 
+        -15px -15px 30px #ffffff;
+        border: none;
+    }
+    
+    input[type=text], input[type=submit], input[type=email], input[type=password] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    form select {
+        display: none;
+    }
+
+
+    
+    label {
+        color: antiquewhite;
+    }
+
+
+/*end of trial*/
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 50px;
+    box-shadow: 5px 5px 10px #afafaf, 
+    -5px -5px 10px #ffffff;;
+    text-align: center;
+    width: 100%;
+}
+
+.createacc {
+    color: aliceblue;
+    background: #180F90;
+}
+
+.google {
+    color: black;
+    background: white;
+}
+
+ .ttble {
+  width: 100%;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+          </style>
+
+@media (max-width: 600px) { 
+    .maincontent {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        gap: 0;
+        
+    }
+  
+    .side1 {
+        padding-left: 30px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+}
+}
+
+
